@@ -48,7 +48,6 @@ var createTaskEl = function(taskDataObj) {
 
   tasksToDoEl.appendChild(listItemEl);
   
-  
 
    // add list item to list
   tasksToDoEl.appendChild(listItemEl);
