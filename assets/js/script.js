@@ -225,6 +225,12 @@ var deleteTask = function (taskId) {
 var saveTasks = function() {
   localStorage.setItem("tasks", JSON.stringify(tasks));
 }
+//make load tasks function... make a for loop 
+var loadTasks = function() {
+  for (var i = 0; i < tasks.length; i++) {
+    if (tasks[i].id !==  JSON.stringify(saveTasks));
+  }
+
 
 // Create a new task
 formEl.addEventListener("submit", taskFormHandler);
